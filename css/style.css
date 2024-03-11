@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+article {
+    margin: auto;
+    background-color: antiquewhite;
+    height: 150vh;
+    width: 80vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:focus {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 3rem;
+    font-size: 3rem;
+}
